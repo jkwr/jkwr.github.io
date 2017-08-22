@@ -1,17 +1,8 @@
-nav ul li{
-	display: inline;
-	text-align: center;
-}
-
-
 li {
 	padding-right: 50px;
 }
 .nav-wrapper {
 	background-color: white; 
-}
-.nav-links:hover {
-	color: purple;
 }
 #col a {
 	color: rgb(52, 72, 97);
@@ -20,10 +11,6 @@ li {
 a.brand-logo {
 	color: rgb(52, 72, 97);
 }
-
-
-
-
 
 body {
 	background-color: pink;
@@ -50,19 +37,18 @@ body {
 	width: 250px;
     height: auto;
     margin-top: 100px;
-   /* text-align: center;
     margin: 0 auto;
     display: block;
-    margin-top: 140px;*/
+    margin-top: 140px;
     
 }
 
-.container {
-	/*display: flex;*/
+/*.container {
+	display: flex;
 	text-align: center;
-	/*width: 100%;
-	height: 300px;*/
-}
+	width: 100%;
+	height: 300px;
+}*/
 
 #bar {
 	margin-top: -34px;
@@ -114,8 +100,6 @@ div#AMH {
 	display: flex;
 }
 #skill-box {
-	height: 500px;
-	width: 450px;
 	background-color: white;
 	color: rgba(52, 72, 97 );;
 	font-size: 20px;
@@ -125,16 +109,13 @@ div#AMH {
 img.col.s4 {
 	font-size: 10px;
 }
-
-
-
 #page2 {
 	background-color: blue;
-	display: ;
+	
 	text-align: center;
 	width: 100%;
-	height: 800px;
-	margin-top: 0px ;
+	height: 600px;
+	
 }
 #page3 {
 	background-color: orange;
@@ -149,5 +130,15 @@ img.col.s4 {
 img#dg {
 	height: 100px;
 	weight: 100px;
+
+}
+img#skills {
+	height: 96px;
+	width: 115px;
+	display: flex;
+
+}
+.card small {
+	width: 300;
 
 }
