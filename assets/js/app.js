@@ -1,6 +1,6 @@
 // sanity check
 console.log("app.js linked.");
-
+// This is my array of objects of projects created 
 let images = [
 {
 	'name': 'Dice Game',  	
@@ -26,7 +26,7 @@ let images = [
 
 $(document).ready(function () {
 
-
+// This for loop will loop through the name and index's of the array and result them in my projects location.
 for (let i=0;i<images.length;i++) {
 	$('.games').append(` 
 	
@@ -49,18 +49,3 @@ for (let i=0;i<images.length;i++) {
 
 });
 
-    $(document).ready(function(){
-      $('.carousel').carousel();
-    });
-// <img class="col s4" id="dice" class="responsive-img" src="assets/imgs/js1.png"></li>
-// <img class="col s4" id="budget" class="responsive-img" src="assets/imgs/js1.png"></li>
-// <img class="col s4" id="memory" class="responsive-img" src="assets/imgs/js1.png"></li>
-// $(‘.port’).eq(0).append(`<img src=${portfolio[0].img}>`);
- //class="activator"<div class="card"> 
-//=================================================
-// for (let i=0;i<images.length;i++) {
-// 	$('#page2').append(` 
-	
-//      <img class="col s4" id="game-image" class="responsive-img" src=${images[i].images}> `);
-	
-// 	}

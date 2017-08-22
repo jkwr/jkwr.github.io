@@ -95,7 +95,7 @@ div#AMH {
 	height: 500px;
 	width: 500px;
 	background-color: white;
-	color: rgba(52, 72, 97 );;
+	color: rgba(52, 72, 97 );
 	font-size: 20px;
 	display: flex;
 }
@@ -119,11 +119,10 @@ img.col.s4 {
 }
 #page3 {
 	background-color: orange;
-	display: ;
 	text-align: center;
 	width: 100%;
 	height: 200px;
-	margin-top: 0px ;
+	margin-top: 400px ;
 }
 
 
@@ -140,5 +139,7 @@ img#skills {
 }
 .card small {
 	width: 300;
-
+}
+.page-footer {
+	background-color: rgb(52, 72, 97 );
 }
