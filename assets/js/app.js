@@ -29,7 +29,7 @@ $(document).ready(function () {
 // This for loop will loop through the name and index's of the array and result them in my projects location.
 for (let i=0;i<images.length;i++) {
 	$('.games').append(` 
-	
+		<div class='col s4'>
      <div class="card small"><div class="card-image waves-effect waves-block waves-light">
       <img class="activator" class="col s4" id="game-image" class="responsive-img" src=${images[i].images}>
     </div>
@@ -38,8 +38,9 @@ for (let i=0;i<images.length;i++) {
       <p><a href="${images[i].url}">${images[i].url}</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>${images[i].about}/</p>
+      <span class="card-title grey-text text-darken-4">${images[i].name}<i class="material-icons right">close</i></span>
+      <p id="project-text">${images[i].about} test</p>
+    </div>
     </div>
   </div> 
 
